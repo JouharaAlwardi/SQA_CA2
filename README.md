@@ -80,18 +80,18 @@ From the previous commit you can see the development of my code and how I have i
  1. Running the tool on eclipse:
     * Before adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see open gaps in the test coverage):
 
-    ![before](/assets/img/MarineGEO_logo.png "before")
+    ![before](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/before.PNG "before")
 
 
     * After adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see closing gaps in the test coverage compared to the previous screenshots):
 
 
-    ![after](/images/before.png "after")
+    ![after](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/after.PNG "after")
 
  2. Executing ObjectTesting and RubricTest:
 
-    ![test1](/images/test1 "test1")
-    ![test2](/images/test2 "test2")
+    ![test1](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test1.png "test1")
+    ![test2](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test2.png "test2")
 
 
 **Interpret the results from test coverage tools:** The green covarge are the lines of covered by the unit tests. For Example, if it shows 50% of the bar covered in green, that means that a half of all the lines of code that you I isn’t covered by testing. The red bar, represnets the lines of code not covered by the unit tests in the prpoject. Testing the coverage of the code helps any developer prevent defects at early stages of project development. Also, notifies the developer to add extra test cases to increase coverage.
