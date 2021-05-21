@@ -96,7 +96,6 @@ From the previous commit you can see the development of my code and how I have i
 
 **Interpretation:** The green coverage demonstrate the lines of code covered by the unit tests. For Example, if it shows 50% of the bar covered in green, that means that half of all the lines of code isn’t covered by testing. The red bar, also represents the lines of code not covered by the unit tests in the project. Testing the coverage of the code helps any developer prevent defects at early stages of project development. Also, notifies the developer to add extra test cases to increase coverage. Consequently, well written projects with optimum credibility. 
 
-
  &nbsp;
 
  ## Task4: Team version-control
@@ -113,10 +112,7 @@ From the previous commit you can see the development of my code and how I have i
 
   5. Team-version-control: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
 
-   6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
- 
-
-
+   6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch.
 
 
 
