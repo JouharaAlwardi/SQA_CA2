@@ -16,7 +16,7 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
  &nbsp;
 
- **Choosing Estimates:** The previous estimates demonstrates the amount of time it would require me to complete the tasks fully. I've minimised the required time to accomplish  easier tasks as it would give me more time to focus on other complex tasks in the sprint backlog. Also, prioritising complex tasks with longer estimates helps me focus on solving the problem to the core, minimise duplicated code in my system and find any small error mistakes. I've also decided to estimate in hours because:
+ **Choosing Estimates:** The previous estimates demonstrate the amount of time required to complete all my tasks fully. I've minimised the required time to accomplish easier tasks because it would give me more time to focus on other complex tasks in the sprint backlog. Also, prioritising complex tasks with longer estimates helps me focus on solving the problem to the core, minimise duplicated code in my system and find any small error mistakes. I've also decided to estimate in hours because:
 
  1. Estimating in hours is feasible because it contains fewer items, which means it won’t take as long
  2. Can be performed by one person
@@ -34,6 +34,88 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
 
  &nbsp;
+
+ ## Task2: Unit testing and Test-Driven development
+
+To create the Rubric project I have followed the three phases of a test driven development:
+
+**First Phase: Create precise tests:** To validate the functionalities of certain features i have created two main unit tests:
+
+1. ObjectTesting: to test the functionality of an object class used to store a list of different types of rubrics (Different names) with one criterion (list of criterion object that hold a criterion name) and a list student grades (A student object with a list of grades). The variations I added for the criterion are :
+
+     * Maximum of 10 criterions
+     * Student grades must match criterions
+     * If criterions list is empty return false and an error message
+     * If Rubric name is empty return false and an error message
+     * If StudentGrade is empty return false and an error message
+
+In the ObjectTesting class you can see three main tests within a test method: A test for student name, a test for a particular grade and a test for a certain criterion.    
+
+2. RubricTesting: I have tested calculations for both the Rubric and its criterion. The tests support the following calculations:
+     * Average, Maximum score, Minimum score and standard deviation of a particular criterion in a rubric.
+     * Average, Maximum score, Minimum score and standard deviation of a rubric.
+
+ The following Link is an example of one of my commits: [link to My Commit](https://github.com/JouharaAlwardi/SQA_CA2/commit/6e2566bec9b7f9c231a173ddd0bf92189bc1bdc8)  
+
+ I have tested all the unit test files and they all compile successfully. In some cases, i have failed a few tests but went back and fixed the issues, now they all execute successfully.
+
+**second Phase:  Correcting the Code:** I have been runing the code to test all methods related to the objects, hence the validation methods mentioned earlier.  I have also been correcting the calculations by running the tests with different values in each test. 
+
+**Third Phase:  Refactor the Code:** I have succesfully removed duplicated code especially by adding additional arrays to store values to loop through these arrays to help execute any necessary task in the project.
+
+
+From the previous commit you can see the development of my code and how I have implemented these three phases while working on the project. Following the three phases while implementing the necessary  unit tests will help improve the quality of any code. I hope to implement this Unit testing and Test-Driven development approach in any of my future projects to help make my code cleaner and easier to read by other developers.
+
+
+ &nbsp;
+
+ ## Task3: Test coverage metric
+
+ The coverage tool I used is a built in Java code coverage too in Eclipse called EclEmma alongside JUniut 5 Library.
+
+ 1. How to run the tool: 
+    * Make sure the tool is installed by going to help > Eclipse Marketplace and search EclEmma.
+    * Right click on the test file and choose coverage and run as Junit test.
+
+ 1. Running the tool on eclipse:
+    * Before adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see open gaps in the test coverage):
+
+    ![before](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/before.PNG "before")
+
+
+    * After adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see closing gaps in the test coverage compared to the previous screenshots):
+
+
+    ![after](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/after.PNG "after")
+
+ 2. Executing ObjectTesting and RubricTest:
+
+    ![test1](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test1.png "test1")
+    ![test2](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test2.png "test2")
+
+
+**Interpretation:** The green coverage demonstrate the lines of code covered by the unit tests. For Example, if it shows 50% of the bar covered in green, that means that half of all the lines of code isn’t covered by testing. The red bar, also represents the lines of code not covered by the unit tests in the project. Testing the coverage of the code helps any developer prevent defects at early stages of project development. Also, notifies the developer to add extra test cases to increase coverage. Consequently, well written projects with optimum credibility. 
+
+
+ &nbsp;
+
+ ## Task4: Team version-control
+
+ The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the products. Th branches I created for the rubric project are:
+
+  1. scrum-sprint-backlog-task-estimation: I used this branch to push my  Sprint backlog of tasks into a README.md file.  
+
+  2. project-code: I used this branch to push my code cmmits from eclipse.  
+
+  3. unit-testing-and-test-driven-development: I used this branch to push my test-driven development approach in a README.md file.  
+
+  4. Test-coverage-metric: I used this branch to push a folder with screenshots of my code coverag tool running on my project, alongside a description to the my coverag tool in my README.md file. 
+
+  5. Team-version-control: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
+
+   6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
+ 
+
 
 
 
