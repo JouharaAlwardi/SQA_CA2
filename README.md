@@ -100,7 +100,7 @@ From the previous commit you can see the development of my code and how I have i
 
  ## Task4: Team version-control
 
- The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the products. Th branches I created for the rubric project are:
+ The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the projects. The branches I created for the rubric project are:
 
   1. scrum-sprint-backlog-task-estimation: I used this branch to push my  Sprint backlog of tasks into a README.md file.  
 
@@ -108,9 +108,9 @@ From the previous commit you can see the development of my code and how I have i
 
   3. unit-testing-and-test-driven-development: I used this branch to push my test-driven development approach in a README.md file.  
 
-  4. Test-coverage-metric: I used this branch to push a folder with screenshots of my code coverag tool running on my project, alongside a description to the my coverag tool in my README.md file. 
+  4. test-coverage-metric: I used this branch to push a folder with screenshots of my code coverag tool running on my project, alongside a description to the my coverag tool in my README.md file. 
 
-  5. Team-version-control: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
+  5. team-version-control: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
 
    6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch.
 
