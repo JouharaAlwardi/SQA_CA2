@@ -35,6 +35,40 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
  &nbsp;
 
+ ## Task2: Unit testing and Test-Driven development
+
+To create the Rubric project I have followed the three phases of a test driven development:
+
+**First Phase: Create precise tests:** To validate the functionalities of certain features i have created two main unit tests:
+
+1. ObjectTesting: to test the functionality of an object class used to store a list of different types of rubrics (Different names) with one criterion (list of criterion object that hold a criterion name) and a list student grades (A student object with a list of grades). The variations I added for the criterion are :
+
+     * Maximum of 10 criterions
+     * Student grades must match criterions
+     * If criterions list is empty return false and an error message
+     * If Rubric name is empty return false and an error message
+     * If StudentGrade is empty return false and an error message
+
+In the ObjectTesting class you can see three main tests within a test method: A test for student name, a test for a particular grade and a test for a certain criterion.    
+
+2. RubricTesting: I have tested calculations for both the Rubric and its criterion. The tests support the following calculations:
+     * Average, Maximum score, Minimum score and standard deviation of a particular criterion in a rubric.
+     * Average, Maximum score, Minimum score and standard deviation of a rubric.
+
+ The following Link is an example of one of my commits: [link to My Commit](https://github.com/JouharaAlwardi/SQA_CA2/commit/6e2566bec9b7f9c231a173ddd0bf92189bc1bdc8)  
+
+ I have tested all the unit test files and they all compile successfully. In some cases, i have failed a few tests but went back and fixed the issues, now they all execute successfully.
+
+**second Phase:  Correcting the Code:** I have been runing the code to test all methods related to the objects, hence the validation methods mentioned earlier.  I have also been correcting the calculations by running the tests with different values in each test. 
+
+**Third Phase:  Refactor the Code:** I have succesfully removed duplicated code especially by adding additional arrays to store values to loop through these arrays to help execute any necessary task in the project.
+
+
+From the previous commit you can see the development of my code and how I have implemented these three phases while working on the project. Following the three phases while implementing the necessary  unit tests will help improve the quality of any code. I hope to implement this Unit testing and Test-Driven development approach in any of my future projects to help make my code cleaner and easier to read by other developers.
+
+
+ &nbsp;
+
 
 
 
