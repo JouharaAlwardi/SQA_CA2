@@ -96,6 +96,23 @@ From the previous commit you can see the development of my code and how I have i
 
 **Interpretation:** The green coverage demonstrate the lines of code covered by the unit tests. For Example, if it shows 50% of the bar covered in green, that means that half of all the lines of code isn’t covered by testing. The red bar, also represents the lines of code not covered by the unit tests in the project. Testing the coverage of the code helps any developer prevent defects at early stages of project development. Also, notifies the developer to add extra test cases to increase coverage. Consequently, well written projects with optimum credibility. 
 
+ &nbsp;
+
+ ## Task4: Team version-control
+
+ The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the products. Th branches I created for the rubric project are:
+
+  1. scrum-sprint-backlog-task-estimation: I used this branch to push my  Sprint backlog of tasks into a README.md file.  
+
+  2. project-code: I used this branch to push my code cmmits from eclipse.  
+
+  3. unit-testing-and-test-driven-development: I used this branch to push my test-driven development approach in a README.md file.  
+
+  4. Test-coverage-metric: I used this branch to push a folder with screenshots of my code coverag tool running on my project, alongside a description to the my coverag tool in my README.md file. 
+
+  5. Team-version-control: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch. 
+
+   6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch.
 
 
 
