@@ -16,7 +16,7 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
  &nbsp;
 
- **Choosing Estimates:** The previous estimates demonstrates the amount of time it would require me to complete the tasks fully. I've minimised the required time to accomplish  easier tasks as it would give me more time to focus on other complex tasks in the sprint backlog. Also, prioritising complex tasks with longer estimates helps me focus on solving the problem to the core, minimise duplicated code in my system and find any small error mistakes. I've also decided to estimate in hours because:
+ **Choosing Estimates:** The previous estimates demonstrate the amount of time required to complete all my tasks fully. I've minimised the required time to accomplish easier tasks because it would give me more time to focus on other complex tasks in the sprint backlog. Also, prioritising complex tasks with longer estimates helps me focus on solving the problem to the core, minimise duplicated code in my system and find any small error mistakes. I've also decided to estimate in hours because:
 
  1. Estimating in hours is feasible because it contains fewer items, which means it won’t take as long
  2. Can be performed by one person
@@ -68,6 +68,33 @@ From the previous commit you can see the development of my code and how I have i
 
 
  &nbsp;
+
+ ## Task3: Test coverage metric
+
+ The coverage tool I used is a built in Java code coverage too in Eclipse called EclEmma alongside JUniut 5 Library.
+
+ 1. How to run the tool: 
+    * Make sure the tool is installed by going to help > Eclipse Marketplace and search EclEmma.
+    * Right click on the test file and choose coverage and run as Junit test.
+
+ 1. Running the tool on eclipse:
+    * Before adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see open gaps in the test coverage):
+
+    ![before](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/before.PNG "before")
+
+
+    * After adding the test methods to test calculations such as maximum score, average .. etc. The image showcases a screenshot of the tool running on my project (You can see closing gaps in the test coverage compared to the previous screenshots):
+
+
+    ![after](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/after.PNG "after")
+
+ 2. Executing ObjectTesting and RubricTest:
+
+    ![test1](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test1.png "test1")
+    ![test2](https://github.com/JouharaAlwardi/SQA_CA2/blob/test-coverage-metric/images/test2.png "test2")
+
+
+**Interpretation:** The green coverage demonstrate the lines of code covered by the unit tests. For Example, if it shows 50% of the bar covered in green, that means that half of all the lines of code isn’t covered by testing. The red bar, also represents the lines of code not covered by the unit tests in the project. Testing the coverage of the code helps any developer prevent defects at early stages of project development. Also, notifies the developer to add extra test cases to increase coverage. Consequently, well written projects with optimum credibility. 
 
 
 
