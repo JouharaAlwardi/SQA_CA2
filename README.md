@@ -114,7 +114,26 @@ From the previous commit you can see the development of my code and how I have i
 
    6. code-review-checklist: I will this branch to push all the details related to my Gitflow process, in addition to a description for each branch.
 
+ &nbsp;
+
  ## Task5: Code-review checklist
+
+ **Code Reviews:** a software quality assurance activity where several people check a program mainly by reviewing and reading parts of its source code, and they do so after implementation or as an interruption of implementation.
+
+ A reviewer should check the list below when reviewing a Pull Request:
+
+ 1. Make Sure the code and document are both well organised and easy to read.
+ 2. The Logic behind the code is accurate.
+ 3. Code credibility and re-usability.
+ 4. Identify Innovative solutions to complex problems.
+ 5. Identify bad smells such as duplicated code and unnecessary comments.
+ 6. Does the code cover enough unit tests.
+
+link to a closed Pull Request within my project that demonstrates the list: 
+[link to a closed pull request](https://github.com/JouharaAlwardi/SQA_CA2/pull/6)  
+
+
+
 
 
 
