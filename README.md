@@ -35,24 +35,9 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
  &nbsp;
 
-## Task2: Unit testing and Test-Driven development
 
 
 
-
-## Task3: Test coverage metric
-
-
-
-
-
-## Task4: Team version-control
-
-
-
-
-
-## Task5: Code-review checklist
 
 
 
