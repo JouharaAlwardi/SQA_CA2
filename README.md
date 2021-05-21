@@ -18,9 +18,9 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
  **Choosing Estimates:** The previous estimates demonstrates the amount of time it would require me to complete the tasks fully. I've minimised the required time to accomplish  easier tasks as it would give me more time to focus on other complex tasks in the sprint backlog. Also, prioritising complex tasks with longer estimates helps me focus on solving the problem to the core, minimise duplicated code in my system and find any small error mistakes. I've also decided to estimate in hours because:
 
- 1. Estimating in hours is feasible because it contains fewer items, which means it won’t take as long.
- 2. Can be performed by one person.
- 3. It's an abstract measure with many strengths.
+ 1. Estimating in hours is feasible because it contains fewer items, which means it won’t take as long
+ 2. Can be performed by one person
+ 3. It's an abstract measure with many strengths
 
 
  **The reasoning behind the estimates (Comparison):** The above estimates  represent a relative value to the degree of effort required to complete each task listed in the previous sprint backlog. Tasks such as "Creating & writing object classes" will take longer hours as they require complex technical solutions with possible risks of technical errors, due to the complexity of the relationships between each object in the project. On the contrary, Tasks such as "Integrating github with eclipse" require shorter estimates, as risk and uncertainty factors are less likely to occur. Consequently, shorter estimates provide additional extra time to:
