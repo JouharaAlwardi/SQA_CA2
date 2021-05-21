@@ -1,7 +1,5 @@
 ## Task1: Scrum sprint backlog and task estimation
 
----
-
 The following table demonstrates a prioritised Sprint backlog of tasks, with estimates for each task:
 
 Priority | Backlog  | Owner | Estimate (Hours) | Status
@@ -32,25 +30,22 @@ Priority | Backlog  | Owner | Estimate (Hours) | Status
 
 ## Task2: Unit testing and Test-Driven development
 
----
 
 
 
 ## Task3: Test coverage metric
 
----
 
 
 
 
 ## Task4: Team version-control
 
----
 
 
 
 
 ## Task5: Code-review checklist
 
----
+
 
