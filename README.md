@@ -100,7 +100,7 @@ From the previous commit you can see the development of my code and how I have i
 
  ## Task4: Team version-control
 
- The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the projects. The branches I created for the rubric project are:
+ The use of Github an GitFlow  helps me with isolating new work from finished work. It also keeps track of all the changes I made to the project. The branches I created for the rubric project are:
 
   1. scrum-sprint-backlog-task-estimation: I used this branch to push my  Sprint backlog of tasks into a README.md file.  
 
